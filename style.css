@@ -43,6 +43,14 @@
     align-items: center;
    }
 
+   .laranja{
+    background: #ED4D1B;
+   }
+
+   .laranja-claro{
+    color: #FF9A3C;
+   }
+
    .menu{
     display: flex;
     flex-direction: row ;
@@ -67,19 +75,23 @@
    }
 
 .hero{
-    display:flex;
-    flex-direction: row;
+    display:inline-block;
+    flex-direction: column;
     padding: 6rem;
+    align-items: center;
+    
 }
 
+
 .hero-titulo{
-    font-size: 4rem;
-    font-weight: 900;
+    font-size: 3rem;
+    font-weight: 600;
+   margin-left: 2rem;
 }
 
 .hero-palavra{
     color: #ED4D1B;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
 }
 
@@ -87,6 +99,7 @@
     font-size: 1.4rem;
     font-weight: 500;
     padding: 2rem;
+   
 }
 
 .hero-button{
@@ -95,15 +108,36 @@
    padding: 0.8rem;
    background: #ED4D1B;
    box-shadow: 3px 3px #000000;
+   margin-left: 2rem;
+   
+   
    
 }
 
 .hero-curve{
+position: relative;
 
- height: 105px;
- width: 97px;
- right: 0.06rem;
+ right: -110px;
+ padding: 2rem;
+  
 }
 
+figure{
+    max-width: 65%;
+    float: right;
+}
 
+.instrument-container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing as needed */
+  }
+
+  .instrument{
+    width: 20%;
+    height: 80%;
+    padding: 10px;
+    border: 1px solid #000000;
+    background: #ED4D1B;
+
+  }
    
